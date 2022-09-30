@@ -18,7 +18,6 @@ $mahasiswa = [$m1, $m2 , $m3, $m4, $m5, $m6, $m7, $m8, $m9, $m10];
 $ar_judul = ['No', 'Nama', 'NIM', 'Nilai', 'Keterangan', 'Grade', 'Predikat'];
 
 //fungsi agregat
-//aggregate function in array
 $jumlah_mahasiswa = count($mahasiswa);
 $jml_nilai = array_column($mahasiswa, 'nilai');
 $total_nilai = array_sum($jml_nilai);
